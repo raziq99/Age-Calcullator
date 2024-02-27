@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 1%, 44%, 0.1);
+}
+
+#tampilan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#form {
+  display: flex;
+  gap: 2rem;
+}
+
+#date {
+  display: flex;
+  flex-direction: column;
+}
+
+#date label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+#date input {
+  width: 110px;
+  height: 50px;
+  /* border: 1px solid gray; */
+  border-radius: 0.3rem;
+  padding-inline: 10px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+#date input:focus {
+  border: 1px solid hsl(259, 100%, 65%);
+  outline: none;
+  caret-color: hsl(259, 100%, 65%);
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
+  position: absolute;
+  right: 20px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#list {
+  font-size: 32px;
+}
+
+#list ul {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 60px;
+}
+#list li {
+  list-style: none;
+}
+
+#list li span {
+  color: hsl(259, 100%, 65%);
+}
+
+#content {
+  border: solid white;
+  background-color: white;
+  border-radius: 1rem 1rem 35% 1rem;
+  padding: 50px;
+  position: relative;
+  width: 75ch;
+}
+
+hr {
+  margin-top: 40px;
+}
